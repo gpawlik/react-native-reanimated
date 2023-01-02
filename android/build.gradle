@@ -107,9 +107,9 @@ def resolveReactNativeDirectory() {
     }
 
     throw new Exception(
-        "[Reanimatedx] Unable to resolve react-native location in " +
+        "[Reanimatedxy] Unable to resolve react-native location in " +
         "node_modules. You should project extension property (in app/build.gradle) " +
-        "`REACT_NATIVE_NODE_MODULES_DIR` with path to react-native."
+        "`REACT_NATIVE_NODE_MODULES_DIR` with path to react-native. a ${projectDir}/../node_modules/react-native b ${rootProject.projectDir}/../../react-native"
     )
 }
 
